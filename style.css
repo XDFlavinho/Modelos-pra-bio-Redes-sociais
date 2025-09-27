@@ -158,3 +158,64 @@ footer {
     height: 100%;
     object-fit: cover;
 }
+
+.DonatePaypal {
+    position: absolute;
+    /* mantém no canto da tela */
+    top: 2px;
+    right: 10px;
+    z-index: 1000;
+    transition: transform 0.7s;
+    /* efeito leve de animação */
+}
+
+.DonatePaypal:hover {
+    transform: scale(1.1);
+    /* aumenta um pouco quando passar o mouse */
+}
+
+.DonatePaypal img {
+    width: 100px;
+    height: auto;
+}
+
+.LivePix {
+    position: absolute;
+    /* mantém no canto da tela */
+    top: 45px;
+    right: 100px;
+    z-index: 1000;
+    transition: transform 0.7s;
+    /* efeito leve de animação */
+}
+
+.LivePix:hover {
+    transform: scale(1.1);
+    /* aumenta um pouco quando passar o mouse */
+}
+
+.LivePix img {
+    width: 100px;
+    height: auto;
+}
+
+.Tutorial {
+    position: absolute;
+    /* mantém no canto da tela */
+    top: 180px;
+    right: 100px;
+    z-index: 1000;
+    transition: transform 0.7s;
+    /* efeito leve de animação */
+}
+
+.Tutorial:hover {
+    transform: scale(1.1);
+    /* aumenta um pouco quando passar o mouse */
+}
+
+.Tutorial img {
+    width: 200px;
+    height: auto;
+    display: block;
+}
