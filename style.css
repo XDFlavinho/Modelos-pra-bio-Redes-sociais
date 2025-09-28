@@ -16,7 +16,7 @@ html {
 
 /* Header */
 header {
-    background: linear-gradient(135deg, #ff6b6b, #ff8e53, #f9d423);
+    background: linear-gradient(135deg, #ff0000, #ffec45);
     color: #ffffff;
     text-align: center;
     padding: 50px 0;
@@ -43,13 +43,8 @@ section {
 }
 
 #sobre {
-    background: linear-gradient(135deg,
-            #001f3f,
-            /* Azul marinho */
-            #004e92,
-            /* Azul petróleo */
-            #0074b8);
-    /* Azul oceano */
+    background: linear-gradient(135deg, #ff00c8, #4558ff);
+    color: #ffffff; /* Sugerida cor para texto das seções */
     text-align: center;
     border-radius: 20px;
     margin: 20px;
@@ -58,15 +53,8 @@ section {
 }
 
 #portfolio {
-    background: linear-gradient(135deg,
-            #001f3f,
-            /* Azul marinho */
-            #004e92,
-            /* Azul petróleo */
-            #0074b8);
-    /* Azul oceano */
-    /* Azul violeta */
-    color: #fff;
+    background: #0074b8; /* Sugestão de cor para as seções */
+    color: #ffffff; /* Sugerida cor para texto das seções */
     border-radius: 20px;
     margin: 20px 0;
     padding: 50px 20px;
@@ -81,16 +69,17 @@ section {
 }
 
 .amostra {
-    background: #fff;
+    background: #FFFFFF; /* Sugestão de cor para a galeria de imagens */
+    color: #333333; /* Sugerida cor para texto da galeria */
     border-radius: 16px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.7s ease, box-shadow 0.7s ease;
 }
 
 .amostra:hover {
-    transform: translateY(-10px) scale(1.03);
+    transform: translateY(-10px) scale(1.01);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
@@ -114,7 +103,7 @@ section {
 
 .btn-download {
     display: inline-block;
-    background: linear-gradient(135deg, #000000, #000000);
+    background: linear-gradient(135deg, #d60000, #f800c2, #4400ff, #000000);
     color: #fff;
     text-decoration: none;
     padding: 12px 24px;
@@ -131,8 +120,8 @@ section {
 
 /* Footer */
 footer {
-    background: linear-gradient(135deg, #232526, #414345);
-    color: #e0e0e0;
+    background: #232526; /* Sugestão de cor para o footer */
+    color: #e0e0e0; /* Sugerida cor para texto do footer */
     text-align: center;
     padding: 25px 0;
     border-top-left-radius: 30px;
@@ -175,7 +164,7 @@ footer {
 }
 
 .DonatePaypal img {
-    width: 100px;
+    width: 95px;
     height: auto;
 }
 
@@ -195,27 +184,16 @@ footer {
 }
 
 .LivePix img {
-    width: 100px;
+    width: 95px;
     height: auto;
 }
 
-.Tutorial {
-    position: absolute;
-    /* mantém no canto da tela */
-    top: 180px;
-    right: 100px;
-    z-index: 1000;
-    transition: transform 0.7s;
-    /* efeito leve de animação */
-}
-
-.Tutorial:hover {
-    transform: scale(1.1);
-    /* aumenta um pouco quando passar o mouse */
-}
-
-.Tutorial img {
-    width: 200px;
-    height: auto;
-    display: block;
+.tutorial {
+    text-decoration: none;
+    color: #ffffff;
+    background: linear-gradient(135deg, #000000);
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
 }
